@@ -12,7 +12,7 @@ const Footer = () => {
           <Link href="/Blog">Blog</Link>
           <Link href="/Productos">Productos</Link>
         </nav>
-        <p>Todos los derechos Reservados</p>
+        <p className={styles.copyright}> Todos los derechos Reservados</p>
 
       </div>
 

@@ -2,11 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 
-const nosotros = () => {
+const Blog = () => {
   return (
     <div>
     <Layout
-    pagina="Nosotros"
+    pagina="Blog"
     >
       
     </Layout>
@@ -14,4 +14,4 @@ const nosotros = () => {
   )
 }
 
-export default nosotros
+export default Blog
