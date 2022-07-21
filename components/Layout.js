@@ -10,7 +10,6 @@ const Layout = ({children, pagina}) => {
         <title>Gitar LA {pagina}</title>
       </Head>
       <Header/>
-      <h1>Layout</h1>
       {children}
 
       <Footer/>
