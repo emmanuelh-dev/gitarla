@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--negro);
+  padding: 5rem 0;
+  margin-top: 5rem;
+}
+.contenido nav a{
+  color: var(--blanco);
+  text-decoration: none;
+  padding: .5rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.contenido nav{
+  display: flex;
+  align-items: column;
+
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .contenido{
+    display: flex;
+    justify-content: space-between;
+    color: var(--blanco);
+  }
+}
